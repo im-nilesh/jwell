@@ -1,0 +1,53 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fdfaf5; /* Light cream background */
+}
+
+.hero-content {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #2e4230; /* Dark green */
+  font-family: "Playfair Display", serif;
+  line-height: 1.4;
+}
+
+.hero-content h1 span {
+  font-style: italic;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.hero-content button {
+  padding: 0.75rem 1.5rem;
+  background-color: #2e4230; /* Dark green */
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #1d2b1e; /* Darker green */
+}
+
+.hero-image {
+  flex: 1.5;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}

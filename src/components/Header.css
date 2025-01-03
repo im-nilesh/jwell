@@ -1,0 +1,60 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f4f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #c19a6b;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  color: #c19a6b;
+}
+
+/* Navigation Container */
+.nav {
+  display: flex;
+  gap: 20px; /* Add space between buttons */
+}
+
+/* Buttons */
+.nav button {
+  background-color: #a85757;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects */
+.nav button:hover {
+  background-color: #873f3f;
+  color: #f9f9f9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Active State */
+.nav button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
