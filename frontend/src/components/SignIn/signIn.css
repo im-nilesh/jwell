@@ -1,0 +1,20 @@
+.sign-in-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #a85757;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.sign-in-button:hover {
+  background-color: #8a4545;
+  transform: translateY(-2px);
+}
+
+.sign-in-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
